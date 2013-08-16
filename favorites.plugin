@@ -1,5 +1,5 @@
 [Plugin]
-Loader=python
+Loader=python3
 Module=favorites
 IAge=3
 Name=Favorites

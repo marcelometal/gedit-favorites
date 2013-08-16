@@ -1,1 +1,1 @@
-from plugin import FavoritesPlugin
+from .plugin import FavoritesPlugin

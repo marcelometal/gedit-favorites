@@ -252,11 +252,11 @@ class FavoritesPlugin(GObject.Object, Gedit.WindowActivatable):
         self._store.remove(tree_iter)
     
     def on_row_inserted(self, model, path, tree_iter, data=None):
-        print "on_row_inserted"
+        print ("on_row_inserted")
         self._store.set_value(tree_iter, 1, "test")
         
     def on_rows_reordered(self, model, path, tree_iter, new_order, data=None):
-        print "on_rows_reordered"
+        print ("on_rows_reordered")
         self._store.set_value(tree_iter, 1, "test")
         
     def on_new_folder_activate(self, action, data=None):
